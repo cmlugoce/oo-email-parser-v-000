@@ -10,7 +10,7 @@ class EmailParser
     @emails = emails 
   end 
   
-  def parse(emails)
+  def parse
     email_array = @emails.split(/, |\s/)
     clean_emails = email_array.unique
   end
