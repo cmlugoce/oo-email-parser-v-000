@@ -12,6 +12,6 @@ class EmailParser
   
   def parse
     email_array = @emails.split(/, |\s/)
-    clean_emails = email_array.unique
+    clean_emails = email_array.uniq
   end
 end 
