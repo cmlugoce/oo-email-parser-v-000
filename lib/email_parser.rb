@@ -12,5 +12,6 @@ class EmailParser
   
   def parse(emails)
     emails_array = @emails.split(/, | \s/)
+    clean_emails = clean
   end
 end 
