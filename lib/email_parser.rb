@@ -12,4 +12,5 @@ class EmailParser
   
   def parse(emails)
     emails_array = @emails.split(/, | \s/)
+  end
 end 
